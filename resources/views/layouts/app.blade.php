@@ -76,16 +76,16 @@
                                 </ul>
                                 <ul class="navbar-nav">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="">A propos </a>
+                                        <a class="nav-link" href="{{ route('apropos') }}">A propos </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">Passagers </a>
+                                        <a class="nav-link" href="{{ route('passager.index') }}">Passagers </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">Chauffeur</a>
+                                        <a class="nav-link" href="{{ route(chauffeur.index) }}">Chauffeur</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Inscription</a>
+                                        <a class="nav-link" href="{{ route('compte.passager') }}">Inscription</a>
                                     </li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@
                                 </ul>
                                 <ul class="navbar-nav">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="">Mon compte </a>
+                                        <a class="nav-link" href="{{ route('profile') }}">Mon compte </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">Mes courses </a>
