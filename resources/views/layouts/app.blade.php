@@ -99,10 +99,11 @@
                                 </ul>
                                 <ul class="navbar-nav">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="{{ route('profile') }}">Mon compte </a>
+                                        <a class="nav-link"
+                                            href="@if (!Auth::user()) {{ route('profile.edit') }}" @endif>Mon compte </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">Mes courses </a>
+                                            <a class="nav-link" href="">Mes courses </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">CGV</a>

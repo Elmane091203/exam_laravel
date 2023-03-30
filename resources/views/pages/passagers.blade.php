@@ -23,7 +23,9 @@
                                 <button class="mt-5 btn btn-warning">
                                     <span class="h3">
                                         <span>
-                                            Inscription
+                                            <a href="{{ route('compte.passager') }}">
+                                                Inscription
+                                            </a>
                                         </span>
                                     </span>
 
