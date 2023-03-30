@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Departement;
 use App\Models\Itineraire;
 use App\Models\Region;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,7 +25,8 @@ class UserController extends Controller
         $regions = Region::all();
         $departements = Departement::all();
         $itineraires = Itineraire::all();
-        return view('admin',['regions'=>$regions,'departements'=>$departements,'itineraires'=>$itineraires]);
+        $users = User::all();
+        return view('admin',['regions'=>$regions,'departements'=>$departements,'itineraires'=>$itineraires,'users'=>$users]);
     }
     public function enregistrement(Request $request)
     {

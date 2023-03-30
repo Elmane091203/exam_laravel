@@ -23,8 +23,9 @@
                                 <button class="mt-5 btn btn-warning">
                                     <span class="h3">
                                         <span>
-                                            Devenir chauffeur Faster
-
+                                            <a href="{{ route('compte.chauffeur') }}">
+                                                Devenir chauffeur Faster
+                                            </a>
                                         </span>
                                     </span>
 
