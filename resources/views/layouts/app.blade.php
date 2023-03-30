@@ -79,7 +79,7 @@
                                         <a class="nav-link" href="{{ route('apropos') }}">A propos </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('passager.index') }}">Passagers </a>
+                                        <a class="nav-link" href="{{ route('passagers.index') }}">Passagers </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route(chauffeur.index) }}">Chauffeur</a>
